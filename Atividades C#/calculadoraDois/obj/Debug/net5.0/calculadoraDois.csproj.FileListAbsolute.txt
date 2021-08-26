@@ -1,0 +1,16 @@
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\bin\Debug\net5.0\calculadoraDois.exe
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\bin\Debug\net5.0\calculadoraDois.deps.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\bin\Debug\net5.0\calculadoraDois.runtimeconfig.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\bin\Debug\net5.0\calculadoraDois.runtimeconfig.dev.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\bin\Debug\net5.0\calculadoraDois.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\bin\Debug\net5.0\ref\calculadoraDois.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\bin\Debug\net5.0\calculadoraDois.pdb
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\obj\Debug\net5.0\calculadoraDois.csproj.AssemblyReference.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\obj\Debug\net5.0\calculadoraDois.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\obj\Debug\net5.0\calculadoraDois.AssemblyInfoInputs.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\obj\Debug\net5.0\calculadoraDois.AssemblyInfo.cs
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\obj\Debug\net5.0\calculadoraDois.csproj.CoreCompileInputs.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\obj\Debug\net5.0\calculadoraDois.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\obj\Debug\net5.0\ref\calculadoraDois.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\obj\Debug\net5.0\calculadoraDois.pdb
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\Aulas-Csharp\Atividades\calculadoraDois\obj\Debug\net5.0\calculadoraDois.genruntimeconfig.cache

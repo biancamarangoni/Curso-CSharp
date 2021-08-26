@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "atividadeHamburguer/1.0.0": {
+        "runtime": {
+          "atividadeHamburguer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "atividadeHamburguer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
