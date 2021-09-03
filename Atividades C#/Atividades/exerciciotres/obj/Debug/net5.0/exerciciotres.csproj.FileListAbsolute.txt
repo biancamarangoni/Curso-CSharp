@@ -1,0 +1,16 @@
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\bin\Debug\net5.0\exerciciotres.exe
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\bin\Debug\net5.0\exerciciotres.deps.json
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\bin\Debug\net5.0\exerciciotres.runtimeconfig.json
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\bin\Debug\net5.0\exerciciotres.runtimeconfig.dev.json
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\bin\Debug\net5.0\exerciciotres.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\bin\Debug\net5.0\ref\exerciciotres.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\bin\Debug\net5.0\exerciciotres.pdb
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\obj\Debug\net5.0\exerciciotres.csproj.AssemblyReference.cache
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\obj\Debug\net5.0\exerciciotres.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\obj\Debug\net5.0\exerciciotres.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\obj\Debug\net5.0\exerciciotres.AssemblyInfo.cs
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\obj\Debug\net5.0\exerciciotres.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\obj\Debug\net5.0\exerciciotres.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\obj\Debug\net5.0\ref\exerciciotres.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\obj\Debug\net5.0\exerciciotres.pdb
+C:\Users\dev\Desktop\Bianca M\Atividades\exerciciotres\obj\Debug\net5.0\exerciciotres.genruntimeconfig.cache

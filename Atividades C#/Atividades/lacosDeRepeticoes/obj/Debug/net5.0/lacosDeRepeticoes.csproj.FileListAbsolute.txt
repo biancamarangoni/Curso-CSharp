@@ -1,0 +1,16 @@
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\obj\Debug\net5.0\lacosDeRepeticoes.csproj.AssemblyReference.cache
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\obj\Debug\net5.0\lacosDeRepeticoes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\obj\Debug\net5.0\lacosDeRepeticoes.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\obj\Debug\net5.0\lacosDeRepeticoes.AssemblyInfo.cs
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\obj\Debug\net5.0\lacosDeRepeticoes.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\bin\Debug\net5.0\lacosDeRepeticoes.exe
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\bin\Debug\net5.0\lacosDeRepeticoes.deps.json
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\bin\Debug\net5.0\lacosDeRepeticoes.runtimeconfig.json
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\bin\Debug\net5.0\lacosDeRepeticoes.runtimeconfig.dev.json
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\bin\Debug\net5.0\lacosDeRepeticoes.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\bin\Debug\net5.0\ref\lacosDeRepeticoes.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\bin\Debug\net5.0\lacosDeRepeticoes.pdb
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\obj\Debug\net5.0\lacosDeRepeticoes.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\obj\Debug\net5.0\ref\lacosDeRepeticoes.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\obj\Debug\net5.0\lacosDeRepeticoes.pdb
+C:\Users\dev\Desktop\Bianca M\Atividades\lacosDeRepeticoes\obj\Debug\net5.0\lacosDeRepeticoes.genruntimeconfig.cache

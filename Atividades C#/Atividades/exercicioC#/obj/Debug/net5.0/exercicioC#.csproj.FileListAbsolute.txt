@@ -1,0 +1,16 @@
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\bin\Debug\net5.0\exercicioC#.exe
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\bin\Debug\net5.0\exercicioC#.deps.json
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\bin\Debug\net5.0\exercicioC#.runtimeconfig.json
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\bin\Debug\net5.0\exercicioC#.runtimeconfig.dev.json
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\bin\Debug\net5.0\exercicioC#.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\bin\Debug\net5.0\ref\exercicioC#.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\bin\Debug\net5.0\exercicioC#.pdb
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\obj\Debug\net5.0\exercicioC#.csproj.AssemblyReference.cache
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\obj\Debug\net5.0\exercicioC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\obj\Debug\net5.0\exercicioC#.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\obj\Debug\net5.0\exercicioC#.AssemblyInfo.cs
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\obj\Debug\net5.0\exercicioC#.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\obj\Debug\net5.0\exercicioC#.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\obj\Debug\net5.0\ref\exercicioC#.dll
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\obj\Debug\net5.0\exercicioC#.pdb
+C:\Users\dev\Desktop\Bianca M\Atividades\exercicioC#\obj\Debug\net5.0\exercicioC#.genruntimeconfig.cache

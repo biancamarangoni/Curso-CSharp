@@ -1,0 +1,16 @@
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\obj\Debug\net5.0\quintoProjeto.csproj.AssemblyReference.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\obj\Debug\net5.0\quintoProjeto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\obj\Debug\net5.0\quintoProjeto.AssemblyInfoInputs.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\obj\Debug\net5.0\quintoProjeto.AssemblyInfo.cs
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\obj\Debug\net5.0\quintoProjeto.csproj.CoreCompileInputs.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\bin\Debug\net5.0\quintoProjeto.exe
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\bin\Debug\net5.0\quintoProjeto.deps.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\bin\Debug\net5.0\quintoProjeto.runtimeconfig.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\bin\Debug\net5.0\quintoProjeto.runtimeconfig.dev.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\bin\Debug\net5.0\quintoProjeto.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\bin\Debug\net5.0\ref\quintoProjeto.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\bin\Debug\net5.0\quintoProjeto.pdb
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\obj\Debug\net5.0\quintoProjeto.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\obj\Debug\net5.0\ref\quintoProjeto.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\obj\Debug\net5.0\quintoProjeto.pdb
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\quintoProjeto\obj\Debug\net5.0\quintoProjeto.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\bin\Debug\net5.0\condicionaisDois.exe
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\bin\Debug\net5.0\condicionaisDois.deps.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\bin\Debug\net5.0\condicionaisDois.runtimeconfig.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\bin\Debug\net5.0\condicionaisDois.runtimeconfig.dev.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\bin\Debug\net5.0\condicionaisDois.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\bin\Debug\net5.0\ref\condicionaisDois.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\bin\Debug\net5.0\condicionaisDois.pdb
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\obj\Debug\net5.0\condicionaisDois.csproj.AssemblyReference.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\obj\Debug\net5.0\condicionaisDois.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\obj\Debug\net5.0\condicionaisDois.AssemblyInfoInputs.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\obj\Debug\net5.0\condicionaisDois.AssemblyInfo.cs
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\obj\Debug\net5.0\condicionaisDois.csproj.CoreCompileInputs.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\obj\Debug\net5.0\condicionaisDois.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\obj\Debug\net5.0\ref\condicionaisDois.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\obj\Debug\net5.0\condicionaisDois.pdb
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\condicionaisDois\obj\Debug\net5.0\condicionaisDois.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\obj\Debug\net5.0\exercicioUm.csproj.AssemblyReference.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\obj\Debug\net5.0\exercicioUm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\obj\Debug\net5.0\exercicioUm.AssemblyInfoInputs.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\obj\Debug\net5.0\exercicioUm.AssemblyInfo.cs
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\obj\Debug\net5.0\exercicioUm.csproj.CoreCompileInputs.cache
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\bin\Debug\net5.0\exercicioUm.exe
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\bin\Debug\net5.0\exercicioUm.deps.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\bin\Debug\net5.0\exercicioUm.runtimeconfig.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\bin\Debug\net5.0\exercicioUm.runtimeconfig.dev.json
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\bin\Debug\net5.0\exercicioUm.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\bin\Debug\net5.0\ref\exercicioUm.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\bin\Debug\net5.0\exercicioUm.pdb
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\obj\Debug\net5.0\exercicioUm.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\obj\Debug\net5.0\ref\exercicioUm.dll
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\obj\Debug\net5.0\exercicioUm.pdb
+C:\Users\dev\Documents\Aulas-C-\Bianca M\Atividades\exercicioUm\obj\Debug\net5.0\exercicioUm.genruntimeconfig.cache
