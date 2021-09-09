@@ -12,7 +12,11 @@ namespace Aula1
 
         private int vida = 100;
 
-        public void Defender(int ataque){
+        public int soco;
+
+        public int chute;
+
+        public void ReceberAtaque(int ataque){
             this.vida = this.vida - ataque;
         }
              public int ExibirVida(){

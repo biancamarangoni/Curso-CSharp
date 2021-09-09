@@ -1,0 +1,16 @@
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\bin\Debug\net5.0\AtividadeApp.exe
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\bin\Debug\net5.0\AtividadeApp.deps.json
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\bin\Debug\net5.0\AtividadeApp.runtimeconfig.json
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\bin\Debug\net5.0\AtividadeApp.runtimeconfig.dev.json
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\bin\Debug\net5.0\AtividadeApp.dll
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\bin\Debug\net5.0\ref\AtividadeApp.dll
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\bin\Debug\net5.0\AtividadeApp.pdb
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\obj\Debug\net5.0\AtividadeApp.csproj.AssemblyReference.cache
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\obj\Debug\net5.0\AtividadeApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\obj\Debug\net5.0\AtividadeApp.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\obj\Debug\net5.0\AtividadeApp.AssemblyInfo.cs
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\obj\Debug\net5.0\AtividadeApp.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\obj\Debug\net5.0\AtividadeApp.dll
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\obj\Debug\net5.0\ref\AtividadeApp.dll
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\obj\Debug\net5.0\AtividadeApp.pdb
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeApp\obj\Debug\net5.0\AtividadeApp.genruntimeconfig.cache
