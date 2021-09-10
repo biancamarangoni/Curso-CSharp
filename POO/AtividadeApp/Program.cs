@@ -16,18 +16,18 @@ namespace AtividadeApp
             cell.enviarMensagem = "";
 
 
-            Console.WriteLine("bem vindo ao programa");
+            Console.WriteLine("Bem vindo ao programa!");
 
-            Console.WriteLine("o que voce deseja fazer ?");
+            Console.WriteLine("O que voce deseja fazer?");
 
             int opcao, escolha;
 
             do
             {
-                Console.WriteLine("1- ligar celular");
-                Console.WriteLine("2- desligar celular");
-                Console.WriteLine("3- enviar mensagem");
-                Console.WriteLine("4- fazer ligação");
+                Console.WriteLine("1 - Ligar celular");
+                Console.WriteLine("2 - Desligar celular");
+                Console.WriteLine("3 - Enviar mensagem");
+                Console.WriteLine("4 - Fazer ligação");
                 opcao = int.Parse(Console.ReadLine());
 
                 switch (opcao)
@@ -51,21 +51,20 @@ namespace AtividadeApp
                             Console.ReadLine();
                             Console.WriteLine("Ligação efetuada com sucesso!");
                         }
-
                         break;
                     case 2:
 
                         break;
                     case 3:
-                    if (escolha == 3)
-                        {
-                            Console.WriteLine("Escreva a mensagem que deseja enviar: ");
-                            escolha = int.Parse(Console.ReadLine());
-                            Console.WriteLine("Mensagem enviada com sucesso!");
-                        }
+                        if (escolha == 3)
+                            {
+                                Console.WriteLine("Escreva a mensagem que deseja enviar: ");
+                                escolha = int.Parse(Console.ReadLine());
+                                Console.WriteLine("Mensagem enviada com sucesso!");
+                            }
                         break;
                     default:
-                        Console.WriteLine("opção errada");
+                        Console.WriteLine("Opção inválida!");
                         break;
                 }
 

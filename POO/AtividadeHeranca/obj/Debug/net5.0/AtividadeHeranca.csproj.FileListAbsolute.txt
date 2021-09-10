@@ -1,0 +1,16 @@
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\bin\Debug\net5.0\AtividadeHeranca.exe
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\bin\Debug\net5.0\AtividadeHeranca.deps.json
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\bin\Debug\net5.0\AtividadeHeranca.runtimeconfig.json
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\bin\Debug\net5.0\AtividadeHeranca.runtimeconfig.dev.json
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\bin\Debug\net5.0\AtividadeHeranca.dll
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\bin\Debug\net5.0\ref\AtividadeHeranca.dll
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\bin\Debug\net5.0\AtividadeHeranca.pdb
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\obj\Debug\net5.0\AtividadeHeranca.csproj.AssemblyReference.cache
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\obj\Debug\net5.0\AtividadeHeranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\obj\Debug\net5.0\AtividadeHeranca.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\obj\Debug\net5.0\AtividadeHeranca.AssemblyInfo.cs
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\obj\Debug\net5.0\AtividadeHeranca.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\obj\Debug\net5.0\AtividadeHeranca.dll
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\obj\Debug\net5.0\ref\AtividadeHeranca.dll
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\obj\Debug\net5.0\AtividadeHeranca.pdb
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\POO\AtividadeHeranca\obj\Debug\net5.0\AtividadeHeranca.genruntimeconfig.cache
