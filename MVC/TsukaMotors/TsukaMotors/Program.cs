@@ -19,6 +19,7 @@ namespace TsukaMotors
                 Console.WriteLine("[1] - Cadastrar Veículo");
                 Console.WriteLine("[2] - Listar Veículos");
                 Console.WriteLine("[3] - Pesquisar Veiculo");
+                Console.WriteLine("[4] - Remover Veículo");
                 Console.WriteLine("[0] - Sair");
                 opcao = Console.ReadLine();
 
@@ -37,8 +38,18 @@ namespace TsukaMotors
                     case "3":
                         Console.WriteLine("Digite o chassi do veiculo: ");
                         string chassiPesquisado = Console.ReadLine();
-                        Veiculo veiculoPesquisado = VeiculoController.BuscarVeiculo(chassiPesquisado, listaDeVeiculos);
-                        Console.WriteLine($"Veiculo correspondente: {veiculoPesquisado.Modelo}");
+                        Veiculo veiculoPesquisado = veiculoController.BuscarVeiculo(chassiPesquisado, listaDeVeiculos);
+                        if(veiculoPesquisado == null){
+                            Console.WriteLine("Ceículo não encontardo!");
+                        }else{
+                            Console.WriteLine($"Veiculo correspondente: {veiculoPesquisado.Modelo}"); 
+                        }
+                         break;
+                    case "4":
+                        //remover veiculo
+                        Console.WriteLine("Digite o chassi do veiculo para removê-lo: ");
+                        string chassiRemove = Console.ReadLine();
+                        veiculoController.RemoverVeiculo(chassiRemove, listaDeVeiculos);
                         break;
                     case "0":
                         Console.WriteLine("Obrigado por utilizar nosso sistema");
@@ -47,7 +58,7 @@ namespace TsukaMotors
                         Console.WriteLine("Errou!");
                         break;
                 }
-            } while (opcao != "0");
+            } while (opcao != "0"); //fim do while
 
 
         }

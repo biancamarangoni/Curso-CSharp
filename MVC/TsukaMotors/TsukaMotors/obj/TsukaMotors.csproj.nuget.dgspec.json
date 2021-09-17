@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dev\\Desktop\\Bianca M\\TsukaMotors\\TsukaMotors\\TsukaMotors.csproj": {}
+    "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\TsukaMotors\\TsukaMotors\\TsukaMotors.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dev\\Desktop\\Bianca M\\TsukaMotors\\TsukaMotors\\TsukaMotors.csproj": {
+    "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\TsukaMotors\\TsukaMotors\\TsukaMotors.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dev\\Desktop\\Bianca M\\TsukaMotors\\TsukaMotors\\TsukaMotors.csproj",
+        "projectUniqueName": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\TsukaMotors\\TsukaMotors\\TsukaMotors.csproj",
         "projectName": "TsukaMotors",
-        "projectPath": "C:\\Users\\dev\\Desktop\\Bianca M\\TsukaMotors\\TsukaMotors\\TsukaMotors.csproj",
+        "projectPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\TsukaMotors\\TsukaMotors\\TsukaMotors.csproj",
         "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dev\\Desktop\\Bianca M\\TsukaMotors\\TsukaMotors\\obj\\",
+        "outputPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\TsukaMotors\\TsukaMotors\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"

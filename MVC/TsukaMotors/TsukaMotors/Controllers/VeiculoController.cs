@@ -44,5 +44,12 @@ namespace TsukaMotors.Controllers
             return veiculoRetornado;
         }
 
+        //método para remover um elemento da lista (delete)
+        public void RemoverVeiculo(string _chassi, List<Veiculo> lista){
+            Veiculo veiculoRetornado = lista.Find(veiculo => veiculo.Chassi == _chassi);
+
+            lista.Remove(veiculoRetornado);
+        }
+
     }
 }
