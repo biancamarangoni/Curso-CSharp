@@ -79,7 +79,7 @@ namespace ExercMercearia
                                     Console.WriteLine("Digite o nome do produto que deseja buscar:");
                                     string produtoPesquisado = Console.ReadLine();
                                     Produto produtoretornado = produtoController.BuscarProduto(produtoPesquisado, listarProdutos);
-                                    if(produtoretornado == null)
+                                    if(produtoPesquisado == null)
                                     {
                                         Console.WriteLine("Produto não encontrado!");
                                     }else{

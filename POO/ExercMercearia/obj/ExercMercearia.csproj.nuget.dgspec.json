@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bianca\\OneDrive\\Área de Trabalho\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj": {}
+    "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bianca\\OneDrive\\Área de Trabalho\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj": {
+    "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bianca\\OneDrive\\Área de Trabalho\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj",
+        "projectUniqueName": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj",
         "projectName": "ExercMercearia",
-        "projectPath": "C:\\Users\\Bianca\\OneDrive\\Área de Trabalho\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj",
-        "packagesPath": "C:\\Users\\Bianca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bianca\\OneDrive\\Área de Trabalho\\Curso-CSharp\\POO\\ExercMercearia\\obj\\",
+        "projectPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj",
+        "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\POO\\ExercMercearia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Bianca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

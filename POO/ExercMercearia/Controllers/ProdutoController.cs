@@ -39,7 +39,7 @@ namespace ExercMercearia.Controllers
           
           //método p buscar um produto 
         public Produto BuscarProduto(string produtoPesquisado, List<Produto> lista){
-            Produto produtoRetornado = lista.Find(produto => produto.NomeProduto == _nomeProduto);
+            Produto produtoRetornado = lista.Find(produto => produto.NomeProduto == produtoPesquisado);
             return produtoRetornado;
         }
     }
