@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Bianca\\OneDrive\\Área de Trabalho\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bianca\\OneDrive\\Área de Trabalho\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bianca\\OneDrive\\Área de Trabalho\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj",
+        "projectName": "ExercMercearia",
+        "projectPath": "C:\\Users\\Bianca\\OneDrive\\Área de Trabalho\\Curso-CSharp\\POO\\ExercMercearia\\ExercMercearia.csproj",
+        "packagesPath": "C:\\Users\\Bianca\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bianca\\OneDrive\\Área de Trabalho\\Curso-CSharp\\POO\\ExercMercearia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bianca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\obj\Debug\net5.0\ExercMercearia.csproj.AssemblyReference.cache
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\obj\Debug\net5.0\ExercMercearia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\obj\Debug\net5.0\ExercMercearia.AssemblyInfoInputs.cache
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\obj\Debug\net5.0\ExercMercearia.AssemblyInfo.cs
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\obj\Debug\net5.0\ExercMercearia.csproj.CoreCompileInputs.cache
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\bin\Debug\net5.0\ExercMercearia.exe
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\bin\Debug\net5.0\ExercMercearia.deps.json
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\bin\Debug\net5.0\ExercMercearia.runtimeconfig.json
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\bin\Debug\net5.0\ExercMercearia.runtimeconfig.dev.json
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\bin\Debug\net5.0\ExercMercearia.dll
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\bin\Debug\net5.0\ref\ExercMercearia.dll
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\bin\Debug\net5.0\ExercMercearia.pdb
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\obj\Debug\net5.0\ExercMercearia.dll
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\obj\Debug\net5.0\ref\ExercMercearia.dll
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\obj\Debug\net5.0\ExercMercearia.pdb
+C:\Users\Bianca\OneDrive\Área de Trabalho\Curso-CSharp\POO\ExercMercearia\obj\Debug\net5.0\ExercMercearia.genruntimeconfig.cache
