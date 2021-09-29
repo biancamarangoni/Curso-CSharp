@@ -13,12 +13,22 @@ namespace ConectandoBD
         public string Email { get; }
         public string Senha { get; }
 
+        //construtor para cadastro
         public Usuarios(string nome, string email, string senha)
         {
             Nome = nome;
             Email = email;
             Senha = senha;
         }
+
+        public Usuarios(int id, string nome, string email, string senha)
+        {
+            Id = id;
+            Nome = nome;
+            Email = email;
+            Senha = senha;
+        }
+
 
     }
 }

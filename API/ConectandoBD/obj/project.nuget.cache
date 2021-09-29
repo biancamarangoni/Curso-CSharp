@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cEO4KmuW6cCv3zxHcei4HSWTPcvLf9mmamm2ST4BBt6bofrZrSVu8WdEXMLk5EEISZfZQAdp6W7SAy9uCe07BA==",
+  "dgSpecHash": "eLPfJgFJaYlDKWt/JOvG7z96USjz0+KyYgstIkCmM7ry8ebTN4IOVN9DxllXovPu7runKM3QHypy5gC22aOzHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\ConectandoBD\\ConectandoBD.csproj",
+  "projectFilePath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\API\\ConectandoBD\\ConectandoBD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dev\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\dev\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

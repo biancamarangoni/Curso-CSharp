@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\ConectandoBD\\ConectandoBD.csproj",
+      "projectUniqueName": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\API\\ConectandoBD\\ConectandoBD.csproj",
       "projectName": "ConectandoBD",
-      "projectPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\ConectandoBD\\ConectandoBD.csproj",
+      "projectPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\API\\ConectandoBD\\ConectandoBD.csproj",
       "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\ConectandoBD\\obj\\",
+      "outputPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\API\\ConectandoBD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
