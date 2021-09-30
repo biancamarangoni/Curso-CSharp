@@ -8,10 +8,15 @@ namespace ConectandoBD
 {
     class Usuarios
     {
-        public int Id { get; }
-        public string Nome { get; }
-        public string Email { get; }
-        public string Senha { get; }
+        public int Id { get; set; }
+        public string Nome { get; set; }
+        public string Email { get; set; }
+        public string Senha { get; set; }
+
+        public Usuarios()
+        {
+
+        }
 
         //construtor para cadastro
         public Usuarios(string nome, string email, string senha)

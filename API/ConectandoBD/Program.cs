@@ -15,13 +15,16 @@ namespace ConectandoBD
             //List<Usuarios> listaRetornada = ListarUsuarios();
             //ExibirListaDeUsuarios(listaRetornada);
 
-            string opcao;
+            string opcao, nome, email, senha;
+            int id;
             do
             {
                 Console.WriteLine("Selecione a opção desejada:");
                 Console.WriteLine("[1] - Cadastrar Usuário");
                 Console.WriteLine("[2] - Listar");
                 Console.WriteLine("[3] - Buscar por Id");
+                Console.WriteLine("[4] - Atualizar Usuario");
+                Console.WriteLine("[5] - Remover Usuario");
                 Console.WriteLine("[0] - Sair");
                 opcao = Console.ReadLine();
 
@@ -29,11 +32,11 @@ namespace ConectandoBD
                 {
                     case "1":
                         Console.WriteLine("Digite o nome do usuário");
-                        string nome = Console.ReadLine();
+                        nome = Console.ReadLine();
                         Console.WriteLine("Digite o email do usuário");
-                        string email = Console.ReadLine();
+                        email = Console.ReadLine();
                         Console.WriteLine("Digite a senha do usuário");
-                        string senha = Console.ReadLine();
+                        senha = Console.ReadLine();
                         var usuario = new Usuarios(nome, email, senha);
                         CadastrarUsuario(usuario);
                         break;
@@ -42,8 +45,24 @@ namespace ConectandoBD
                         break;
                     case "3":
                         Console.WriteLine("Digite o Id do usuário");
-                        int id = int.Parse(Console.ReadLine());
+                        id = int.Parse(Console.ReadLine());
                         ExibirUsuario(PesquisaPorId(id));
+                        break;
+                    case "4":
+                        Console.WriteLine("Digite o Id do usuario que deseja atualizar");
+                        id = int.Parse(Console.ReadLine());
+                        Console.WriteLine("Digite o nome: ");
+                        nome = Console.ReadLine();
+                        Console.WriteLine("Digite o e-mail: ");
+                        email = Console.ReadLine();
+                        
+                        ExibirUsuario(AtualizarUsuario(id, nome, email));
+                        Console.ReadKey();
+                        break;
+                    case "5":
+                        Console.WriteLine("Digite o Id do usuário para remover");
+                        RemoverUsuario(int.Parse(Console.ReadLine()));
+                        Console.ReadKey(); 
                         break;
                 }
             } while (opcao != "0");
@@ -51,9 +70,52 @@ namespace ConectandoBD
 
         static Usuarios PesquisaPorId(int id)
         {
-            var listaDeUsuarios = ListarUsuarios();
-            var usuarioRetornado = listaDeUsuarios.FirstOrDefault(usuario => usuario.Id == id);
-            return usuarioRetornado;
+            //var listaDeUsuarios = ListarUsuarios();
+            //var usuarioRetornado = listaDeUsuarios.FirstOrDefault(usuario => usuario.Id == id);
+            //return usuarioRetornado;
+
+            try
+            {
+                //estabelecendo a conexao
+                var conn = Conexao.GetConnect();
+                conn.Open();
+
+                //definindo o comando SQL
+                var query = "select * from Usuarios where idUsuario = @id";
+
+                var command = new SqlCommand(query, conn);
+                command.Parameters.Add("@id", SqlDbType.Int).Value = id;
+
+                //criando o Dataset
+                var dataSet = new DataSet(); //nesse momento está vazio
+                var adapter = new SqlDataAdapter(command);//aqui já tenho os dados do banco
+                adapter.Fill(dataSet);//inserimos os dados dentro do dataSet
+
+                var rows = dataSet.Tables[0].Rows;
+
+                Usuarios usuario = new Usuarios();
+                //agr vamos transferir os dados do dataSet p/ um obj
+                foreach (DataRow item in rows)
+                {
+                    var colunas = item.ItemArray;
+
+                    int idUsuario = int.Parse(colunas[0].ToString());
+                    string nome = colunas[1].ToString();
+                    string email = colunas[2].ToString();
+                    string senha = colunas[3].ToString();
+
+                    usuario = new Usuarios(idUsuario, nome, email, senha);
+                }
+
+                conn.Close();
+                return usuario;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Ops! Algo de errado não está certo: " + ex.Message);
+                throw;
+            }
+            
         }
 
         static void TestarConexao()
@@ -73,6 +135,53 @@ namespace ConectandoBD
                 Console.WriteLine("Mensagem de erro: " + ex.Message);
             }
         }//fim teste de conexao
+
+        //atualizar usuario
+        static Usuarios AtualizarUsuario(int id, string nome, string email)
+        {
+
+            try
+            {
+                //estabelecendo a conexao
+                var conn = Conexao.GetConnect();
+                conn.Open();
+
+                //definindo o comando SQL
+                var query = "update Usuarios set nomeUsuario = @nome, emailUsuario = @email where idUsuario = @id";
+
+                var command = new SqlCommand(query, conn);
+                command.Parameters.Add("@id", SqlDbType.Int).Value = id;
+                command.Parameters.Add("@nome", SqlDbType.VarChar).Value = nome;
+                command.Parameters.Add("@email", SqlDbType.VarChar).Value = email;
+                command.ExecuteNonQuery();
+
+                conn.Close();
+                return PesquisaPorId(id);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Ops! Algo de errado não está certo: " + ex.Message);
+                throw;
+            }
+
+        }
+
+        //remover usuario
+        static void RemoverUsuario(int id)
+        {
+            var conn = Conexao.GetConnect();
+            conn.Open();
+
+            var query = "delete from Usuarios where idUsuario = @id";
+            var command = new SqlCommand(query, conn);
+            command.Parameters.Add("@id", SqlDbType.Int).Value = id;
+            Usuarios usuario = PesquisaPorId(id);
+            command.ExecuteNonQuery();
+            
+            Console.WriteLine($"Usuario {usuario.Nome} removido com sucesso!");
+
+        }
+
 
         //método p/ inserir dados em uma lista
 
@@ -179,7 +288,7 @@ namespace ConectandoBD
                 catch (Exception ex)
                 {
                     Console.WriteLine("Ops... Encontramos um erro: " + ex.Message);
-                    throw ex;
+                    throw;
                 }
             }//fim listar usuarios
 
