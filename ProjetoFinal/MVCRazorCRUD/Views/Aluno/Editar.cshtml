@@ -1,0 +1,26 @@
+﻿<h1>Página de cadastro de Aluno</h1>
+
+<form action='@Url.Action("Cadastrar")' method="post" enctype="multipart/form-data">
+    <div>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nomeAluno" placeholder="Ex. Bianca Chagas" id="nome" />
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="text" name="emailAluno" placeholder="Ex. bianca@gmail.com" id="email" />
+    </div>
+    <div>
+        <label for="end">Endereço:</label>
+        <input type="text" name="enderecoAluno" placeholder="Ex. Rua 182" id="end" />
+    </div>
+    <div>
+        <label for="tel">Telefone:</label>
+        <input type="text" name="telefoneAluno" placeholder="Ex. 11 91111-2222" id="tel" />
+    </div>
+    <div>
+        <label for="esc">Escolaridade:</label>
+        <input type="text" name="escolaridadeAluno" placeholder="Ex. 1° ano" id="esc" />
+    </div>
+    <button type="submit">Cadastrar</button>
+
+</form>

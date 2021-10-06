@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PFi08Debh7FE7Y+gq94MZnSK5j7V1V4StcNauEgAaR+rWggkeD6niEVwuTCODwyjZr6fEwTFkgne15C1rojkyw==",
+  "dgSpecHash": "Jm7ucShReFHUMZ1xnD1r5DecBN3E5pkLOJ48DOXc/meYi7Fle44A5QV8eRNBbN3DwxpbqIqvoRl7dV5XU7QCAA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\MVCRazorCRUD\\MVCRazorCRUD.csproj",
+  "projectFilePath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\ProjetoFinal\\MVCRazorCRUD\\MVCRazorCRUD.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dev\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\dev\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

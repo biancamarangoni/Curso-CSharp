@@ -13,9 +13,39 @@ namespace MVCRazorCRUD.Models
     {
         public string Escolaridade { get; set; }
 
-        public Aluno AlterarAluno(Aluno aluno)
-        {
-            throw new NotImplementedException();
+        public List<Aluno> BuscarPorId(int id)
+        {            
+            var connection = Conexao.GetConnect();
+            connection.Open();
+
+            var query = "select * from Alunos where idAluno = @id";
+            var command = new SqlCommand(query, connection);
+            command.Parameters.Add("@id", SqlDbType.Int).Value = id;
+
+            var dataSet = new DataSet();
+            var adapter = new SqlDataAdapter(command);
+            adapter.Fill(dataSet);
+
+            var rows = dataSet.Tables[0].Rows;
+
+            List<Aluno> listaAlunos = new List<Aluno>();
+
+            foreach (DataRow item in rows)
+            {
+                var colunas = item.ItemArray;
+
+                Aluno aluno = new Aluno();
+
+                aluno.Id = int.Parse(colunas[0].ToString());
+                aluno.Nome = colunas[1].ToString();
+                aluno.Email = colunas[2].ToString();
+                aluno.Endereco = colunas[3].ToString();
+                aluno.Telefone = colunas[4].ToString();
+                aluno.Escolaridade = colunas[5].ToString();
+                listaAlunos.Add(aluno);
+            }
+            connection.Close();
+            return listaAlunos;
         }
 
         public Aluno CadastrarAluno(Aluno aluno)
@@ -48,12 +78,56 @@ namespace MVCRazorCRUD.Models
 
         public List<Aluno> ListarAluno()
         {
-            throw new NotImplementedException();
+            try
+            {
+                var connection = Conexao.GetConnect();
+                connection.Open();
+                //query
+                var query = "select * from Alunos";
+                var command = new SqlCommand(query, connection);
+                var dataSet = new DataSet();
+                var adapter = new SqlDataAdapter(command);
+                adapter.Fill(dataSet);
+
+                var rows = dataSet.Tables[0].Rows;
+
+                List<Aluno> listaDeAlunos = new List<Aluno>();
+
+                foreach (DataRow item in rows)
+                {
+                    Aluno aluno = new Aluno();
+                    var colunas = item.ItemArray;
+                    aluno.Id = int.Parse(colunas[0].ToString());
+                    aluno.Nome = colunas[1].ToString();
+                    aluno.Email = colunas[2].ToString();
+                    aluno.Endereco = colunas[3].ToString();
+                    aluno.Telefone = colunas[4].ToString();
+                    aluno.Escolaridade = colunas[5].ToString();
+
+                    listaDeAlunos.Add(aluno);
+                }
+                connection.Close();
+                return listaDeAlunos;
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }          
+            
         }
 
-        public Aluno RemoverAluno(int id)
+        public void RemoverAluno(int id)
         {
-            throw new NotImplementedException();
+            var connection = Conexao.GetConnect();
+            connection.Open();
+
+            var query = "delete from Alunos where idAluno = @id";
+            var command = new SqlCommand(query, connection);
+            command.Parameters.Add("@id", SqlDbType.Int).Value = id;
+
+            //aqui a query é executada no banco
+            command.ExecuteNonQuery();
         }
     }
 }

@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\MVCRazorCRUD\\MVCRazorCRUD.csproj",
+      "projectUniqueName": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\ProjetoFinal\\MVCRazorCRUD\\MVCRazorCRUD.csproj",
       "projectName": "MVCRazorCRUD",
-      "projectPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\MVCRazorCRUD\\MVCRazorCRUD.csproj",
+      "projectPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\ProjetoFinal\\MVCRazorCRUD\\MVCRazorCRUD.csproj",
       "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\MVCRazorCRUD\\obj\\",
+      "outputPath": "C:\\Users\\dev\\Desktop\\Bianca M\\Curso-CSharp\\ProjetoFinal\\MVCRazorCRUD\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config",

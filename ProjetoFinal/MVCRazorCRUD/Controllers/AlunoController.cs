@@ -10,9 +10,12 @@ namespace MVCRazorCRUD.Controllers
 {
     public class AlunoController : Controller
     {
-        [Route("Aluno")]
+        //[Route("Aluno")]
+
+        Aluno alunoModel = new Aluno();
         public IActionResult Index()
         {
+            ViewBag.ListaDeAlunos = alunoModel.ListarAluno();
             return View();
         }
 
@@ -29,12 +32,31 @@ namespace MVCRazorCRUD.Controllers
 
             aluno.CadastrarAluno(aluno);
 
-            return View();
+            return LocalRedirect("/");
         }
 
         [Route("Cadastro")]
         public IActionResult Cadastro()
         {
+            return View();
+        }
+
+        [Route("~/Aluno/{id}")]
+        public IActionResult Remover(int id)
+        {
+            alunoModel.RemoverAluno(id);
+
+            return LocalRedirect("/Aluno");
+        }
+
+        [Route("~/Aluno/Editar/{id}")]
+        public IActionResult Editar(int id)
+        {
+            var listaRetornada = alunoModel.BuscarPorId(id);
+            var alunoRetornado = listaRetornada.Find(aluno => aluno.Id == id);
+
+            ViewBag.alunoRetornado = alunoRetornado;
+
             return View();
         }
     }
