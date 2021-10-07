@@ -1,0 +1,26 @@
+﻿<h1>Página de cadastro de Professor</h1>
+
+<form action='@Url.Action("Cadastrar")' method="post" enctype="multipart/form-data">
+    <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nomeProf" placeholder="Ex. Lucas Medina" id="nome" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="text" name="emailProf" placeholder="Ex. medina@gmail.com" id="email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="end">Endereço:</label>
+        <input type="text" name="enderecoProf" placeholder="Ex. Rua Mogi" id="end" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="tel">Telefone:</label>
+        <input type="text" name="telefoneProf" placeholder="Ex. 11 91111-3333" id="tel" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label for="esc">Cargo:</label>
+        <input type="text" name="cargoProf" placeholder="Ex. 2° ano" id="esc" class="form-control" />
+    </div>
+    <button type="submit">Cadastrar</button>
+
+</form>

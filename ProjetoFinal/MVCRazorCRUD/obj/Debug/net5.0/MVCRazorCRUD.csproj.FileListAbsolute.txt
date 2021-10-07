@@ -95,3 +95,6 @@ C:\Users\dev\Desktop\Bianca M\Curso-CSharp\ProjetoFinal\MVCRazorCRUD\obj\Debug\n
 C:\Users\dev\Desktop\Bianca M\Curso-CSharp\ProjetoFinal\MVCRazorCRUD\obj\Debug\net5.0\MVCRazorCRUD.pdb
 C:\Users\dev\Desktop\Bianca M\Curso-CSharp\ProjetoFinal\MVCRazorCRUD\obj\Debug\net5.0\MVCRazorCRUD.genruntimeconfig.cache
 C:\Users\dev\Desktop\Bianca M\Curso-CSharp\ProjetoFinal\MVCRazorCRUD\obj\Debug\net5.0\Razor\Views\Aluno\Editar.cshtml.g.cs
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\ProjetoFinal\MVCRazorCRUD\obj\Debug\net5.0\Razor\Views\Professor\Index.cshtml.g.cs
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\ProjetoFinal\MVCRazorCRUD\obj\Debug\net5.0\Razor\Views\Professor\Cadastro.cshtml.g.cs
+C:\Users\dev\Desktop\Bianca M\Curso-CSharp\ProjetoFinal\MVCRazorCRUD\obj\Debug\net5.0\Razor\Views\Professor\Editar.cshtml.g.cs
