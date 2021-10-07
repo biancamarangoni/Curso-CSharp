@@ -12,5 +12,6 @@ namespace MVCRazorCRUD.Interfaces
         List<Aluno> ListarAluno();
         List<Aluno> BuscarPorId(int id);
         void RemoverAluno(int id);
+        void AtualizarAluno(Aluno aluno);
     }
 }

@@ -1,26 +1,33 @@
-﻿<h1>Página de cadastro de Aluno</h1>
+﻿@{ 
+    var aluno = ViewBag.alunoRetornado;
+}
+<h1>Página de cadastro de Aluno</h1>
 
-<form action='@Url.Action("Cadastrar")' method="post" enctype="multipart/form-data">
+<form action='@Url.Action("Atualizar")' method="post" enctype="multipart/form-data">
+    <div class="form_aluno_id">
+        <label for="id">Id:</label>
+        <input type="text" name="idAluno" id="id" value="@aluno.Id" />
+    </div>
     <div>
         <label for="nome">Nome:</label>
-        <input type="text" name="nomeAluno" placeholder="Ex. Bianca Chagas" id="nome" />
+        <input type="text" name="nomeAluno" placeholder="Ex. Bianca Chagas" id="nome" value="@aluno.Nome" class="form-control" />
     </div>
     <div>
         <label for="email">Email:</label>
-        <input type="text" name="emailAluno" placeholder="Ex. bianca@gmail.com" id="email" />
+        <input type="text" name="emailAluno" placeholder="Ex. bianca@gmail.com" id="email" value="@aluno.Email" class="form-control"/>
     </div>
     <div>
         <label for="end">Endereço:</label>
-        <input type="text" name="enderecoAluno" placeholder="Ex. Rua 182" id="end" />
+        <input type="text" name="enderecoAluno" placeholder="Ex. Rua 182" id="end" value="@aluno.Endereco" class="form-control"/>
     </div>
     <div>
         <label for="tel">Telefone:</label>
-        <input type="text" name="telefoneAluno" placeholder="Ex. 11 91111-2222" id="tel" />
+        <input type="text" name="telefoneAluno" placeholder="Ex. 11 91111-2222" id="tel" value="@aluno.Telefone" class="form-control"/>
     </div>
     <div>
         <label for="esc">Escolaridade:</label>
-        <input type="text" name="escolaridadeAluno" placeholder="Ex. 1° ano" id="esc" />
+        <input type="text" name="escolaridadeAluno" placeholder="Ex. 1° ano" id="esc" value="@aluno.Escolaridade" class="form-control"/>
     </div>
-    <button type="submit">Cadastrar</button>
+    <button type="submit">Atualizar</button>
 
 </form>

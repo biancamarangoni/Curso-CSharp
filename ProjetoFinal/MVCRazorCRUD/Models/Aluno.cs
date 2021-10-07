@@ -13,6 +13,22 @@ namespace MVCRazorCRUD.Models
     {
         public string Escolaridade { get; set; }
 
+        public void AtualizarAluno(Aluno aluno)
+        {
+            var connection = Conexao.GetConnect();
+            connection.Open();
+            var query = "update Alunos set nomeAluno = @nome, emailAluno = @email, enderecoAluno = @endereco, telefoneAluno = @telefone, escolaridadeAluno = @escolaridade where idAluno = @id";
+            var command = new SqlCommand(query, connection);
+
+            command.Parameters.Add("@nome", SqlDbType.VarChar).Value = aluno.Nome;
+            command.Parameters.Add("@email", SqlDbType.VarChar).Value = aluno.Email;
+            command.Parameters.Add("@endereco", SqlDbType.VarChar).Value = aluno.Endereco;
+            command.Parameters.Add("@telefone", SqlDbType.VarChar).Value = aluno.Telefone;
+            command.Parameters.Add("@escolaridade", SqlDbType.VarChar).Value = aluno.Escolaridade;
+            command.Parameters.Add("@id", SqlDbType.Int).Value = aluno.Id;
+            command.ExecuteNonQuery();
+        }
+
         public List<Aluno> BuscarPorId(int id)
         {            
             var connection = Conexao.GetConnect();
