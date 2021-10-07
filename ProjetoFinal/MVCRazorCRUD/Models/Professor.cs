@@ -69,7 +69,7 @@ namespace MVCRazorCRUD.Models
             {
                 var connection = Conexao.GetConnect();
                 connection.Open();
-                var query = "insert into Professores (nomeProfessor, emailProfessor, enderecoProfessor, telefoneProfessor, cargoProfessor) values (@nome, @email, @end, @tel, @esc)";
+                var query = "insert into Professores (nomeProfessor, emailProfessor, enderecoProfessor, telefoneProfessor, cargoProfessor) values (@nome, @email, @end, @tel, @cargo)";
 
                 var command = new SqlCommand(query, connection);
 
@@ -77,7 +77,7 @@ namespace MVCRazorCRUD.Models
                 command.Parameters.Add("@email", SqlDbType.VarChar).Value = professor.Email;
                 command.Parameters.Add("@end", SqlDbType.VarChar).Value = professor.Endereco;
                 command.Parameters.Add("@tel", SqlDbType.VarChar).Value = professor.Telefone;
-                command.Parameters.Add("@esc", SqlDbType.VarChar).Value = professor.Cargo;
+                command.Parameters.Add("@cargo", SqlDbType.VarChar).Value = professor.Cargo;
 
                 command.ExecuteNonQuery();
 
